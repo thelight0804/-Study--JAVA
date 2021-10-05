@@ -14,14 +14,14 @@ public class StreamTestDrive {
         
         //남자 수
         long maleCount = persons.stream()
-                .filter(e->e.getGender() == Gender.MALE).count();
-        System.out.printf(">>> 남자는 %d명 입니다.%n"), maleCount);
+                .filter(e->e.getGender() == Gender.MALE).count(); //.filter : 뽑아낸다
+        System.out.printf(">>> 남자는 %d명 입니다.%n"), maleCount); //%n : 줄바꿈
         
         //여자 나이
         OptionalDouble gemailAverageAge = persons.stream()
                 .filter(e->e.getGender() == Gender.FEMALE)
                 .mapToInt(Person::getAge)
-                .average();
+                .average(); //정렬
         if(femaileAverageAge.isPresent()){
             System.out.printf(">>> 여자의 평균 나이는 &.2f입니다.%n", femaleAverageAge.getAsDouble());
         }
