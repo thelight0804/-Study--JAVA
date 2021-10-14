@@ -38,16 +38,16 @@ public class StreamTestDrive {
         OptionalDouble femaleAverageAge = persons.stream()
                 .filter(e->e.getGender() == Gender.FEMALE)
                 .mapToInt(Person::getAge)
-                .average(); //정렬
+                .average(); //평균
         if(femaleAverageAge.isPresent()){
-            System.out.printf(">>> 여자의 평균 나이는 &.2f입니다.%n", femaleAverageAge.getAsDouble());
+            System.out.printf(">>> 여자의 평균 나이는 %.2f입니다.%n", femaleAverageAge.getAsDouble());
         }
         
         System.out.println(">>> 20~25살인 여자의 이름을 정렬해서 출력");
         Stream<Person> sp = persons.stream()
                 .filter(e->e.getGender()==Gender.FEMALE)
                 .filter(e->e.getAge() >= 20&&e.getAge() <= 25)
-                .sorted();
+                .sorted(); //정렬
         sp.forEach(e->System.out.printf("%s%n", e.getName()));
     }
 }
