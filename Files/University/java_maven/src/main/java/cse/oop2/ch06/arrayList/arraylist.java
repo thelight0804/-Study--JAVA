@@ -3,7 +3,7 @@ Date : 21.10.22
 Title : 6장 ArrayList
 Project : ArrayList
  */
-package cse.oop2.ch06;
+package cse.oop2.ch06.arrayList;
 
 import java.util.ArrayList; //ArrayList API
 
