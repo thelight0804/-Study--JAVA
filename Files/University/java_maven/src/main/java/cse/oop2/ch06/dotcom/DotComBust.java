@@ -19,14 +19,14 @@ public class DotComBust {
         dotComList.add(two);
         dotComList.add(three);
     }
-        System.out.println("DotCom 게임!");
+         /* System.out.println("DotCom 게임!");
         System.out.println("3개의 DotCom을 맞추면 승리합니다.");
 
 
-        for(DotCom dotComToSet : dotComList){
+      for(DotCom dotComToSet : dotComList){
             ArrayList<String> newLocation = helper.placeDotCom(3); //DotCome 갯수 설정
             dotComToSet.setLocationCells(newLocation);
-        } //for문 종료
+        } //for문 종료*/
 
     private void startPlaying(){
         while(!dotComList.isEmpty()){
@@ -43,7 +43,7 @@ public class DotComBust {
             if(result.equals("때림!"))
                 break;
             if(result.equals("물리침!")){
-                dotComList.remove(dotComToTest);
+               // dotComList.remove(dotComToTest);
                 break;
             }
         }
