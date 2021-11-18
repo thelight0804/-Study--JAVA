@@ -1,4 +1,4 @@
-package cse.oop2.ch07.overloadingTest;
+package cse.oop2.ch07.overloading_test;
 
 public class Calculator {
     void sum(int a, int b){

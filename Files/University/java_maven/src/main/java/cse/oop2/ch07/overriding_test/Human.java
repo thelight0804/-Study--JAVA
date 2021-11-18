@@ -1,4 +1,4 @@
-package cse.oop2.ch07.overridingTest;
+package cse.oop2.ch07.overriding_test;
 public class Human {
     String name;
     int age;

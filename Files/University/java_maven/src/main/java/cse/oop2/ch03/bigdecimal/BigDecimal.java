@@ -3,7 +3,7 @@ Date : 21.10.12
 Title : 3장 네 변수를 알라_6주차 강의 3
 Project : BigDecimal
  */
-/*package cse.oop2.ch03.bigdecimal;
+package cse.oop2.ch03.bigdecimal;
 
 //BigDecimal을 사용하기 위한 import
 import java.math.BigDecimal;
@@ -18,4 +18,4 @@ public class BigDecimal {
         BigDecimal result = a.add(b);
         System.out.printf("result = %s", result);
     }
-}*/
+}

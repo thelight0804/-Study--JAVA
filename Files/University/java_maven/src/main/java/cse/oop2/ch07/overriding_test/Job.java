@@ -1,4 +1,4 @@
-package cse.oop2.ch07.overridingTest;
+package cse.oop2.ch07.overriding_test;
 
 public class Job extends Human {
     String job;

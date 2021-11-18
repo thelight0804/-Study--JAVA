@@ -22,7 +22,7 @@ public class AnimalTestDrive {
                 Pet p = (Pet) animal;
                 p.play();
 
-               // ((Pet) animal).play();
+               ((Pet) animal).play();
             }
             System.out.println();
         }

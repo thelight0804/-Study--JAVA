@@ -1,11 +1,11 @@
-package cse.oop2.ch10.practiceDuck;
+package cse.oop2.ch10.practice_duck;
 
 public class Duck {
         private int size;
         private static int duckCount = 0; //static 공유 변수
         private int nth;
 
-        private static Duck[] duck;
+        private static Duck[] ducks;
 
         public Duck(){
             this(10);
@@ -28,7 +28,7 @@ public class Duck {
         }
 
         public static void initialize(){
-            Duck ducks[] = new Duck[10];
+            ducks = new Duck[10];
 
             ducks[0] = new Duck();
             for(int i =1; i<ducks.length; i++){
@@ -39,9 +39,9 @@ public class Duck {
 
         /////main
     public static void main(String[] args){
-/*        initialize();
+        initialize();
         for (Duck d : ducks) {
             System.out.println(d);
-        }*/
+        }
     }
 }

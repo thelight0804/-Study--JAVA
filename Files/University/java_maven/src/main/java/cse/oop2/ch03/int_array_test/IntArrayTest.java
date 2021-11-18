@@ -3,10 +3,7 @@ Date : 21.10.12
 Title : 3장 네 변수를 알라_6주차 강의 4
 Project : 상수 (전역 변수)
  */
-package cse.oop2.ch03.IntArrayTest;
-
-import java.util.OptionalDouble;
-import java.util.OptionalInt;
+package cse.oop2.ch03.int_array_test;
 
 public class IntArrayTest {
 

@@ -1,4 +1,4 @@
-package cse.oop2.ch10.SillyQuestion;
+package cse.oop2.ch10.silly_question;
 
 
 public class SillyQuestion {

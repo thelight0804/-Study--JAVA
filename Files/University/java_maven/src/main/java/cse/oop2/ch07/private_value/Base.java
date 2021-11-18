@@ -1,4 +1,4 @@
-package cse.oop2.ch07.privateValue;
+package cse.oop2.ch07.private_value;
 public class Base {
     private int number;
 
