@@ -7,7 +7,7 @@ package cse.oop2.ch11.trycatch;
 
 import javax.sound.midi.MidiUnavailableException;
 
-public class mainClass {
+public class MainClass {
     /*    public static void main(String[] args) {
     MusicTest m = new MusicTest();
     m.play();
