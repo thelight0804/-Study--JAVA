@@ -11,7 +11,7 @@ public class MiniMusicCmdLine {
 
     public static void main(String[] args) {
         MiniMusicCmdLine mini = new MiniMusicCmdLine();
-        if (args.length < 2)
+        if (args.length < 2) //args : run할때 main(String[] args)에서 받는다
             System.out.println("악기의 음높이를 지정하는 인자를 입력하세요.");
         else{
             int instrument = Integer.parseInt(args[0]);
