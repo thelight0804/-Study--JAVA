@@ -1,4 +1,4 @@
-package cse.oop2.ch14.decorator.LowerCaseReader;
+package cse.oop2.ch14.decorator.lower_case_reader;
 
 import java.io.*;
 

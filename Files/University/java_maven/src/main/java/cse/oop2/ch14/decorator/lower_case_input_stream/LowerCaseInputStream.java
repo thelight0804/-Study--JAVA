@@ -1,4 +1,4 @@
-package cse.oop2.ch14.decorator.LowerCaseInputStream;
+package cse.oop2.ch14.decorator.lower_case_input_stream;
 
 import java.io.FilterInputStream;
 import java.io.IOException;

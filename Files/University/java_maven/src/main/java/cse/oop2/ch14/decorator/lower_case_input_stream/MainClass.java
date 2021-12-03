@@ -1,9 +1,9 @@
 /*
 Date : 21.12.02
-Title : 파일 입출력
+Title : 14장 파일 입출력
 Project : 바이트 단위로 읽는 파일 입출력
  */
-package cse.oop2.ch14.decorator.LowerCaseInputStream;
+package cse.oop2.ch14.decorator.lower_case_input_stream;
 
 import java.io.*;
 

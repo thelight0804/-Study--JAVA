@@ -1,7 +1,7 @@
 package cse.oop2.ch14.decorator.resource;
 
 import java.io.*;
-import cse.oop2.ch14.decorator.LowerCaseReader.*;
+import cse.oop2.ch14.decorator.lower_case_reader.*;
 
 public class TestDrive {
     public void go() {

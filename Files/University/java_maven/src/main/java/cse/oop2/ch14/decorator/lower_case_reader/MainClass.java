@@ -1,10 +1,10 @@
 /*
 Date : 21.12.02
-Title : 파일 입출력
+Title : 14장 파일 입출력
 Project : 줄 단위로 읽는 파일 입출력
  */
 
-package cse.oop2.ch14.decorator.LowerCaseReader;
+package cse.oop2.ch14.decorator.lower_case_reader;
 
 import java.io.*;
 
