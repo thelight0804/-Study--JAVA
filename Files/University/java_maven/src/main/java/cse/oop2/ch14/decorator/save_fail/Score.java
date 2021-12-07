@@ -1,4 +1,4 @@
-package cse.oop2.ch14.decorator.savefail;
+package cse.oop2.ch14.decorator.save_fail;
 
 public class Score {
     private String name;
