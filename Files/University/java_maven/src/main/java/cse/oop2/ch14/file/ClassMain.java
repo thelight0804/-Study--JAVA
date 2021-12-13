@@ -32,6 +32,6 @@ public class ClassMain {
         System.out.println("절대 경로 : " + dir.getAbsolutePath());
 
         //파일 또는 디렉토리 삭제
-        boolean isDeleted = file.delete();
+        boolean isDeleted = file.delete(); //input.txt 삭제
     }
 }
